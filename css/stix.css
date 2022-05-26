@@ -6,6 +6,9 @@
     url('../fonts/stix/STIXTwoText-Regular.otf') format('otf'),
     url('../fonts/stix/STIXTwoText-Regular.ttf') format('truetype'),
     url('../fonts/stix/STIXTwoText-Regular.woff2') format('woff2'),
+    url('../fonts/stix/STIXTwoText-Italic.otf') format('otf'),
+    url('../fonts/stix/STIXTwoText-Italic.ttf') format('truetype'),
+    url('../fonts/stix/STIXTwoText-Italic.woff2') format('woff2'),
 }
 
 body {
@@ -27,4 +30,9 @@ ul.menu,
 h1, h2, h3, h4, h5, h6 {
   font-family: "StixTwoText", serif;
   font-weight: normal;
+}
+
+.site-slogan {
+  font-family: "StixTwoText", serif;
+  font-style: italic;  
 }

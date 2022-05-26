@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'STIXTwoText';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../fonts/stix/STIXTwoText-Regular.otf') format('otf'),
+    url('../fonts/stix/STIXTwoText-Regular.ttf') format('truetype'),
+    url('../fonts/stix/STIXTwoText-Regular.woff2') format('woff2'),
+}
+
+body {
+  font: 1rem/1.6 verdana, sans-serif;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea,
+.ui-widget {
+  font: 1rem/1.6 verdana, sans-serif;
+}
+
+.site-name,
+ul.menu,
+.block-hero,
+h1, h2, h3, h4, h5, h6 {
+  font-family: "StixTwoText", serif;
+  font-weight: normal;
+}

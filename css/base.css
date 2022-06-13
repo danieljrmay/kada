@@ -520,18 +520,3 @@ h6 {
 .ui-corner-tl {
   border-radius: 0 !important;
 }
-
-address.contact a {
-  color: #ffffff;
-  font-size: 300%;
-  font-style: normal;
-  font-weight: bold;
-}
-
-address.contact a.email::before {
-  content: "@ ";
-}
-
-address.contact a.mobile::before {
-  content: "📱 ";
-}

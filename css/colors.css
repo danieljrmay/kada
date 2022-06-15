@@ -275,7 +275,8 @@ td.active {
 .image-library-image {
   box-shadow: none;
 }
-.view-promoted-cards .views-grid-box {
+.view-promoted-cards .views-grid-box,
+.view-promoted-services .views-grid-box {
   background: #333333;
   border: 1px dotted #004400;
 }

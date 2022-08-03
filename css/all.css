@@ -1,0 +1,245 @@
+@font-face {
+  font-family: 'STIXTwoText';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../fonts/stix/STIXTwoText-Regular.otf') format('otf'),
+    url('../fonts/stix/STIXTwoText-Regular.ttf') format('truetype'),
+    url('../fonts/stix/STIXTwoText-Regular.woff2') format('woff2'),
+    url('../fonts/stix/STIXTwoText-Italic.otf') format('otf'),
+    url('../fonts/stix/STIXTwoText-Italic.ttf') format('truetype'),
+    url('../fonts/stix/STIXTwoText-Italic.woff2') format('woff2'),
+}
+
+html {
+  background: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
+  background: radial-gradient(closest-side, #222222, #444444, black);
+  background-image: linear-gradient(to right, black, #333333);
+  background: black;
+  color: white;                    
+  font-family: sanserif, system-ui;
+  font-size: 120%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "StixTwoText", serif;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: lightskyblue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+
+.header-site-slogan,
+div.block-hero div.block-content > p {
+  font-family: "StixTwoText", serif;
+  font-style: italic;
+}
+
+.header-site-slogan {
+  font-size: 1.25rem;
+  text-shadow: 0.1rem 0.1rem 0.2rem black;
+}
+
+div.block-hero div.block-content > p {
+  font-size: 1.25rem;
+  max-width: 50rem;
+  text-shadow: 0.1rem 0.1rem 0.2rem black;
+}
+
+@media screen and (min-width: 640px) {
+  div.block-hero div.block-content > p {
+    font-size: 1.75rem;
+  }
+}
+
+div.block-hero {
+  background-color: rgba(50,50,50,0.5);
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0;
+}
+
+.header-identity-wrapper {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.header-site-logo-wrapper,
+.header-site-name-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.header-logo {
+  margin: 1rem;
+  margin-bottom: 0;
+  max-height: 5rem;
+}
+
+.header-site-name-wrapper h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: normal;
+  margin: 1rem;
+  margin-bottom: 0;
+}
+
+.header-site-name-wrapper a:hover {
+  text-decoration: none;
+}
+
+.header-site-slogan {
+  margin: 1rem;
+  margin-bottom: 0;
+}
+
+.header-menu {
+  font-size: 1rem;
+  margin: 1rem;
+  margin-bottom: 0;
+}
+
+.header-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.block-hero {
+  border: 3px ridge #777777;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem 1rem;
+}
+
+div.block-hero .block-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div.block-hero p {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+div.block-hero p:last-of-type {
+  margin-bottom: 0;
+}
+
+
+/* Copyright notice */
+
+footer.l-footer {
+  margin: 1rem;  
+}
+
+footer.l-footer .block-block-copyright {
+  font-size: 0.75rem;
+}
+
+
+/* Contact details */
+
+address.grid {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+a.button-link,
+a.button-link:hover {
+  flex: 1 1 auto;
+  margin: 0;
+  margin-bottom: 0.25rem;
+  margin-top: 0.25rem;
+  padding: 0;
+  text-decoration: none;
+}
+
+a.button-link button {
+  background: linear-gradient(45deg, #004400, #008800);
+  border-radius: 1rem;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  padding: 0.125rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-shadow: 0.1rem 0.1rem 0.2rem black;
+  width: 100%;
+}
+
+span.email-icon,
+span.mobile-icon,
+span.whatsapp-icon {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 0.25rem;
+  vertical-align: middle;
+}
+
+div.views-view-grid {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+
+div.views-view-grid .views-grid-box {
+  background: #303030;
+  border: 3px ridge #777777;
+  border-radius: 1rem;
+  flex: 1 1 auto;
+  margin: 0.5rem;
+  min-width: 7rem;
+  width: 15rem;
+  max-width: 100%;
+}
+
+div.block-views-promoted-cards-block,
+div.block-views-promoted-services-block {
+  background: #181818;
+  border: 3px ridge #777777;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+div.block > h2 {
+  margin-left: 1rem;
+}

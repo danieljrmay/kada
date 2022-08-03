@@ -1,0 +1,8 @@
+name = Kada
+description = Theme for KADA Media Limited.
+type = theme
+backdrop = 1.x
+
+stylesheets[all][] = css/all.css
+
+settings[hide_header_menu_for_anonymous] = false

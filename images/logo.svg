@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1044" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <desc>KADA Media logo</desc>
+  <defs>
+    <style type="text/css">
+      @font-face {
+      font-family: 'STIXTwoText';
+      font-style: normal;
+      font-weight: 400;
+      src: url('../fonts/stix/STIXTwoText-Regular.woff2') format('woff2');
+      }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="none"/>
+  <text x="0" y="0" font-family="StixTwoText" font-size="350" fill="white" text-anchor="start" kerning="0" letter-spacing="0">
+     <tspan x="32" y="280">K</tspan><tspan dx="10">A</tspan><tspan dx="5">D</tspan><tspan dx="-40">A</tspan>
+     <tspan x="39" y="556">M</tspan><tspan dx="0">e</tspan><tspan dx="10">d</tspan><tspan dx="15">i</tspan><tspan dx="5">a</tspan>
+  </text>
+</svg>
